@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+header {
+  opacity: 0.9;
+  height: 70px;
+  width: 100%;
+  background-color: whitesmoke;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-logo {
+  float: left;
+}
+
+.logo {
+  height: 70px;
+}
+
+.header-list {
+  float: right;
+}
+
+.header-list a {
+  line-height: 70px;
+  padding: 0 20px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-list a:hover {
+  color: burlywood;
+  /*font-size: 18px;*/
+}
+
+.top-wrapper {
+  padding: 150px 0 150px 0;
+  background-image:url('image/wall.jpeg');
+  background-size: cover;
+  color: white;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 42px;
+  letter-spacing: 2px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.top-wrapper h2 {
+  opacity: 0.9;
+  font-size: 30px;
+  letter-spacing: 1px; 
+}
+
+.top-wrapper p {
+  opacity: 0.9;
+  width: 37%;
+  letter-spacing: 1px;
+}
+
+.top-wrapper a {
+  color: white;
+}
+
+.top-btn {
+	display: inline-block;
+	font-size: 12px;
+  margin-top: 20px;
+	padding: 15px 25px;
+	color: #fff;
+	line-height: normal;
+	border: 2px solid #fff;
+  transition: all 0.5s;
+  border-radius: 3px;
+}
+
+.top-btn i {
+	font-size: 14px;
+	margin-left: 4px;
+}
+
+.top-btn:hover {
+	color: black;
+  background:white; 
+}
+
+/* ----- Batas ----- */
+
+.lesson-wrapper {
+  height: 560px;
+  padding-top:20px;
+  background-color: #F8EFBA;
+  opacity:0.8;
+  text-align: center;
+}
+.lesson-wrapper h2{
+   padding-top: 30px;
+   padding-bottom:20px;
+  
+}
+
+
+.heading {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 30%;
+}
+
+.lesson-icon {
+  position: relative;
+  margin:0;
+}
+
+
+.lesson-icon p {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  color: white;
+  font-size:10px
+}
+img{
+  border-radius: 50%;
+  vertikal-align: midle;
+  border-style:none;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 10px;
+  color:white;
+}
