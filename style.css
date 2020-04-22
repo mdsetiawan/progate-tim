@@ -118,6 +118,38 @@ header {
   background:white; 
 }
 
+.fadeIn {
+  position: relative;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; right: 1000px;}
+  to {opacity: 0.9; right: 0px;}
+}
+
+.fadeInP {
+  position: relative;
+  animation-name: fadeInP;
+  animation-duration: 3s;
+}
+
+@keyframes fadeInP {
+  from {opacity: 0; right: 1000px;}
+  to {opacity: 0.9; right: 0px;}
+}
+
+.fadeInB {
+  animation-name: fadeInB;
+  animation-duration: 5s;
+}
+
+@keyframes fadeInB {
+  from {opacity: 0; }
+  to {opacity: 1; }
+}
+
 /* ----- Batas ----- */
 
 .lesson-wrapper {
