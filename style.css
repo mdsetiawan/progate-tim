@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -168,14 +167,11 @@ header {
 .video-wrapper {
   background-color: antiquewhite;
   padding: 50px 0px;
-
 }
 
 .videos {
   text-align: center;
   color: #5f5d60;
-  background-size: cover;
-    max-width:100%;
 }
 
 .video {
@@ -189,7 +185,6 @@ header {
   letter-spacing: 1px;
   font-size: 18px;
   line-height: 22px;
-  margin:15px 10px 
 }
 
 /* ------------------------- Batas Video ------------------------- */
@@ -198,24 +193,27 @@ header {
   background-color: wheat;
   padding: 50px 0px;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-  display:flex;
+}
+
+.testi {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .testimonial-item {
-  max-width: 50%;
-  float: left;
+  width: 50%;
+  flex: auto;
+  /* float: left; */
   padding: 10px 20px;
-  flex:auto;
 }
 
-.testimonial-img {
-  border-radius: 3%; 
-  border: 1px solid black;
-  float: left;
-  max-width: 20%;
-  margin-top: 15px;
-  flex:auto;
-}
+  .testimonial-img {
+    border-radius: 3%; 
+    border: 1px solid black;
+    float: left;
+    width: 120px;
+    margin-top: 15px;
+  }
 
 .testimonial-item h3 {
   font-size: 20px;
@@ -223,7 +221,6 @@ header {
   margin: 10px 0 5px 0;
   color: #111;
   margin-left: 140px;
-  flex:auto;
 }
 
 .testimonial-item h4 {
@@ -231,7 +228,6 @@ header {
   color: #5f5d60;
   margin: 0 0 15px 0;
   margin-left: 140px;
-  flex:auto;
 }
 
 .testimonial-item p {
@@ -239,7 +235,6 @@ header {
   margin: 0 0 15px 140px;
   text-align: justify;
   font-size: 14px;
-  flex:auto;
 }
 
 /* ------------------------- Batas Testimoni ------------------------- */
@@ -248,7 +243,11 @@ header {
   background-color: antiquewhite;
   padding: 50px 0px;
   text-align: center;
-  max-width:100%;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .team-img {
@@ -259,7 +258,8 @@ header {
 }
 
 .team-icon {
-  float: left;
+  /* float: left; */
+  flex: auto;
   width: 20%;
   position: relative;
 }
@@ -286,27 +286,27 @@ header {
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
+.contact-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .contact-map {
-  float: left;
+  /* float: left; */
+  flex: auto;
   width: 50%;
-}
-.contact-map iframe{
-  max-width:100%;
-}
-.contact-btn {
-  max-width:100%;
+  text-align: center;
 }
 
 .contact-form {
-  float: right;
+  /* float: right; */
   width: 50%;
   text-align: center;
-  padding-top: 25px;
 }
 
 input, textarea {
     width:80%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     padding:10px;
     font-size:16px;
     border:1px solid #dee7ec;
@@ -329,7 +329,7 @@ input, textarea {
 
 /* ------------------------- Batas Form ------------------------- */
 
-.footer{
+.footer {
   background-color: whitesmoke;
   padding: 10px 0px;
 }
@@ -340,15 +340,3 @@ input, textarea {
   text-align:center;
   background-color: whitesmoke;
 }
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About

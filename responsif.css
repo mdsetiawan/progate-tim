@@ -13,22 +13,37 @@
     width: 45%;
     font-size: 14px;
   }
-  .video-wrapper {
-    width:auto;
+
+/* ------------------------- Batas Header ------------------------- */
+
+  .video {
+    width: 70%;
   }
-  .video-wrapper p{
-    width:auto;
+
+  .videos p {
+    font-size: 16px;
+    line-height: 20px;
   }
- .selection-header{
-   width:auto;
-  } 
-  .contact-map iframe {
-    width:auto;
+
+/* ------------------------- Batas Video ------------------------- */
+/* ------------------------- Batas Testimoni ------------------------- */
+
+  .team-icon {
+    /* float: left; */
+    width: 33%;
+    padding-bottom: 20px;
   }
+
+/* ------------------------- Batas Tim ------------------------- */
+
   .contact-btn {
-    width:auto;
+    width: 40%;
   }
+
+/* ------------------------- Batas Form ------------------------- */
+
 }
+
 
 /* Untuk Smartphone */
 @media all and (max-width: 700px) { 
@@ -60,13 +75,57 @@
     font-size: 14px;
   }
 
-  .contact-form {
-    font-size: 14px;
-    width: 50%;
+  /* ------------------------- Batas Header ------------------------- */
+
+  .video {
+    width: 90%;
   }
 
-  footer {
-    text-align: center;
-    font-size:10px;
+  .videos p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  /* ------------------------- Batas Video ------------------------- */
+
+  .testimonial-item {
+    width: 90%;
+    
+  }
+
+  /* ------------------------- Batas Testimoni ------------------------- */
+
+  .team-img {
+    width: 150px;
+  }
+
+  .team-icon {
+    /* float: left; */
+    width: 50%;
+    padding-bottom: 20px;
+  }
+
+  /* ------------------------- Batas Tim ------------------------- */
+
+  .contact-map {
+    flex: auto;
+    width: 90%;
+  }
+
+  .contact-form {
+    padding-top: 20px;
+    flex: auto;
+  }
+
+  input, textarea {
+    margin-bottom: 12px;
+    padding:7px;
+    font-size:14px;
+  }
+
+  /* ------------------------- Batas Form ------------------------- */
+
+  .footer p {
+    font-size:12px;
   }
 }
