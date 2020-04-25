@@ -13,6 +13,21 @@
     width: 45%;
     font-size: 14px;
   }
+  .video-wrapper {
+    width:auto;
+  }
+  .video-wrapper p{
+    width:auto;
+  }
+ .selection-header{
+   width:auto;
+  } 
+  .contact-map iframe {
+    width:auto;
+  }
+  .contact-btn {
+    width:auto;
+  }
 }
 
 /* Untuk Smartphone */
@@ -47,7 +62,7 @@
 
   .contact-form {
     font-size: 14px;
-    width: 100%;
+    width: 50%;
   }
 
   footer {

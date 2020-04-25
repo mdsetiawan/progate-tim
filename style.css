@@ -1,10 +1,24 @@
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: "Lucida Grande";
+}
+
+.section-header h2 {
+  color: #5f5d60;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+.clear {
+  clear: left;
 }
 
 a {
@@ -55,7 +69,6 @@ header {
 
 .header-list a:hover {
   color: burlywood;
-  /*font-size: 18px;*/
 }
 
 .menu-icon {
@@ -66,7 +79,7 @@ header {
 }
 
 .top-wrapper {
-  padding: 150px 0 150px 0;
+  padding: 155px 0;
   background-image:url('image/wall.jpg');
   background-size: cover;
   color: white;
@@ -83,7 +96,6 @@ header {
   opacity: 0.9;
   font-size: 30px;
   letter-spacing: 1px; 
-  
 }
 
 .top-wrapper p {
@@ -151,199 +163,192 @@ header {
   to {opacity: 1; }
 }
 
-/* ----- Batas ----- */
+/* ------------------------- Batas Header ------------------------- */
 
+.video-wrapper {
+  background-color: antiquewhite;
+  padding: 50px 0px;
 
-@keyframes fadeInP {
-  from {opacity: 0; right: 1000px;}
-  to {opacity: 0.9; right: 0px;}
 }
 
-
-
-.lesson-wrapper {
-  height: 450px;
-  background:url(/image/extra.jpg);
-  opacity:0.8;
+.videos {
   text-align: center;
+  color: #5f5d60;
+  background-size: cover;
+    max-width:100%;
 }
 
-.heading {
-  padding-top: 30px;
-  padding-bottom: 40px;
+.video {
+	border: 2px solid black;
+  border-radius: 3px;
+  width: 50%;
+}
+
+.videos p {
+  padding-top: 20px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  line-height: 22px;
+  margin:15px 10px 
+}
+
+/* ------------------------- Batas Video ------------------------- */
+
+.testi-wrapper {
+  background-color: wheat;
+  padding: 50px 0px;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  display:flex;
+}
+
+.testimonial-item {
+  max-width: 50%;
+  float: left;
+  padding: 10px 20px;
+  flex:auto;
+}
+
+.testimonial-img {
+  border-radius: 3%; 
+  border: 1px solid black;
+  float: left;
+  max-width: 20%;
+  margin-top: 15px;
+  flex:auto;
+}
+
+.testimonial-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+  margin-left: 140px;
+  flex:auto;
+}
+
+.testimonial-item h4 {
+  font-size: 14px;
+  color: #5f5d60;
+  margin: 0 0 15px 0;
+  margin-left: 140px;
+  flex:auto;
+}
+
+.testimonial-item p {
+  font-style: italic;
+  margin: 0 0 15px 140px;
+  text-align: justify;
+  font-size: 14px;
+  flex:auto;
+}
+
+/* ------------------------- Batas Testimoni ------------------------- */
+
+.team-wrapper {
+  background-color: antiquewhite;
+  padding: 50px 0px;
+  text-align: center;
+  max-width:100%;
+}
+
+.team-img {
+  width: 180px;
+  border-radius: 50%;
+  transition: all 0.5s;
+  border: 1px solid brown;
+}
+
+.team-icon {
+  float: left;
+  width: 20%;
+  position: relative;
+}
+
+.team-content p {
   color: #5f5d60;
 }
 
-.heading h2 {
-  font-weight: normal;
-}
-/* batas */
-.video-wrapper h2{
-  text-align:left;
-  margin-top:10px;
-  border-bottom: 3px solid grey;
-  width:300px;
-}
-
-.video-wrapper video {
-  margin-left:15%;
-}
-
-.video-wrapper p{
-  text-align:center;
-  margin-top:25px;
-}
-
-.testi-wrapper h2{
-  text-align:left;
-  margin:10px 0px;
-  border-bottom: 3px solid grey;
-  width:150px;
-
-}
-
-.testi-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
-  position: relative;
-        top: -webkit-calc(50% - 60px);
-        top: calc(50% - 60px);
-        text-shadow: 0px 0px 3px white;
-}
-.testi {
-animation-name: slide;
-    animation-duration: 4s;
-}  
-
-@-webkit-keyframes slide {
-    0% { opacity: 0; margin-left: -250px; }
-    100% { opacity: 1; margin-left: 0; }
-}
-
-@keyframes slide {
-    0% { opacity: 0; margin-left: -250px; }
-    100% { opacity: 1; margin-left: 0; }
-}
-.gambar img {
-margin-top:50px;
-}
-
-.name h3{
-  text-indent:2px;
-}
-
-.address{
-  line-height:0.5%;
-  margin-bottom:40px;
-}
-/*batas*/
-  
-.lesson {
-  float: left;
-  width: 30%;
-  bottom:50%;
-  top : 30px
-  
-}
-
-.lesson-icon {
-  position: relative;
-
-}
-
-
-.lesson-icon p {
-  position: absolute;
-  top: 30%;
-  width: 100%;
- 
-    color:white;
-    font-size:15px;
-    display: block;
+.team-content a {
+  color: #5f5d60;
   transition: all 0.5s;
-}
-.lesson-icon a{
- position: absolute;
- color: white;
- opacity:0.7;
- top:60%;
-display:inline-block; 
+  padding: 0 2px;
 }
 
-
-.lesson-icon p:hover{
-   background : rgb(0,0,0);
-  background :  rgba(0,0,0,0.5);
-    color: aliceblue;
-    font-size:20px;
- 
-
-  }
-  
-  
-.lesson-icon a:hover{
-    background : rgb(0,0,0);
-  background :  rgba(0,0,0,0.5);
-      color:white;
-     font-size:30px
-
-    
-}
-  
-img{
-  
-  animation-name: fadeInP;
-  animation-duration: 3s;
-  border-radius: 50%;
- vertikal-align: midle;
-  border-style:none;
+.team-content a:hover {
+  color: brown;
 }
 
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 20px;
-  font-size: 10px;
-  color:white;
+/* ------------------------- Batas Tim ------------------------- */
 
+.contact-wrapper{
+  background-color: wheat;
+  padding: 50px 0px;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.contact-map {
+  float: left;
+  width: 50%;
+}
+.contact-map iframe{
+  max-width:100%;
+}
+.contact-btn {
+  max-width:100%;
 }
 
 .contact-form {
-  padding: 20px 0px;
-  background: url(https://floorsplus.ca/wp-content/uploads/2014/04/contact-info-background.png) no-repeat 0px 0px;
-  background-size: cover;
-  min-height: 500px;
-  margin-top: 40px;
+  float: right;
+  width: 50%;
+  text-align: center;
+  padding-top: 25px;
 }
 
-.contact-form h3 {
-  font-size: 42px;
-  font-weight: 400px;
-  text-align:center;
-  padding-bottom:10px;
-  padding-right: 150px;
-  color:rgb(245, 254, 255);
-  display:block;
-  font-family: Poppins, sans-serif;
-  letter-spacing: 2px;
-  line-height: 46px;
-  margin-block-end: 10px;
-  margin-block-start: 20px;
-  margin-bottom: 10px;
-  float:right;
+input, textarea {
+    width:80%;
+    margin-bottom: 20px;
+    padding:10px;
+    font-size:16px;
+    border:1px solid #dee7ec;
 }
 
+.contact-btn {
+  width: 30%;
+  background-color: #007bff;
+  border: 0;
+  border-radius: 20px;
+  padding: 10px 10px;
+  color: #fff;
+  transition: 0.3s;
+}
 
+.contact-btn:hover {
+  background: #0067d5;
+  cursor: pointer;
+}
 
+/* ------------------------- Batas Form ------------------------- */
 
-.footer-info {
-  padding: 30px 0;
-  margin:20px 0 0 0;
-  font-size: 15px;
+.footer{
+  background-color: whitesmoke;
+  padding: 10px 0px;
+}
+
+.footer p {
+  padding: 10px 0px;  
+  font-size: 14px;
   text-align:center;
   background-color: whitesmoke;
-  
 }
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
