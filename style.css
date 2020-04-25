@@ -59,7 +59,7 @@ header {
 
 .header-list a {
   line-height: 70px;
-  padding: 0 20px;
+  padding: 0 15px;
   color: black;
   display: block;
   float: left;
@@ -314,7 +314,8 @@ input, textarea {
 
 .contact-btn {
   width: 30%;
-  background-color: #007bff;
+  /* background-color: #007bff; */
+  background-color: chocolate;
   border: 0;
   border-radius: 20px;
   padding: 10px 10px;
@@ -323,7 +324,7 @@ input, textarea {
 }
 
 .contact-btn:hover {
-  background: #0067d5;
+  background-color: coral;
   cursor: pointer;
 }
 
